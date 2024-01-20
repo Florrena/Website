@@ -1,0 +1,73 @@
+body{
+    padding-top:50px;
+    background-color: #D9D9D9;
+
+}
+.randomcat {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    width:1750px;
+    margin:10px auto;
+
+}
+.banner-container {
+    box-sizing: border-box;
+    display: block;
+    width: 100%; 
+}
+
+.banner-container img {
+    width: 100%; 
+    height: 500px; 
+    object-fit: cover; 
+    object-position: top;
+    display: block; 
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+h2{
+    padding-bottom:10px;
+    font-weight: bolder;
+}
+article{
+    padding-left:20px;
+    display: flex;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns, one for text and one for button */
+    gap: 10px; /* Adjust the gap between text and button as needed */
+    align-items: center; /* Center items vertically */
+  }
+.article button {
+    max-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center text and image horizontally */
+    background-color: #30333A;
+    color: #fff; 
+    padding: 10px 20px; /* Adjust padding for medium size */
+    border: none;
+    cursor: pointer;
+    font-family: 'Lato', 'sans-serif';
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px; /* Add border-radius for curved corners */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.article button img {
+    width: 30px; /* Set your preferred icon size */
+    height: auto;
+    padding-left: 6px;
+}
+
+.article button:hover {
+    background-color: #30333A;
+    color: #ECA390;
+}
