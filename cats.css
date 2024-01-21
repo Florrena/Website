@@ -1,0 +1,83 @@
+
+body{
+    padding-top:50px;
+    background-color: #D9D9D9;
+    max-width:1900px auto;
+    margin:10px auto;
+    background-size: 100%;
+    background-image: url(images/bannerpaw.png);
+    background-repeat: no-repeat; 
+    background-position: bottom right;
+    background-attachment: fixed;
+}
+
+.cat-header{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    padding-top:50px;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.cat-header img {
+    width: 30px; /* Adjust the width of the images */
+    height: auto;
+    margin: 0 10px; /* Adjust the margin between the images and text */
+}
+.cat-cards {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top:50px;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin: 0 auto; /* Set left and right margins to 'auto' to center the block */
+    max-width: 1200px; /* Set a maximum width if needed */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b1aeae ;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.card img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin to create space between image and cat names */
+    overflow: hidden; /* Ensure content doesn't overflow and respects the border-radius */
+}
+
+.card button {
+    margin-top: 10px; /* Adjust the margin between image and button */
+    background-color: #30333A;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Lato','sans-serif';
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card button:hover {
+    background-color: #30333A;
+    color: #ECA390;
+}
