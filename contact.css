@@ -1,6 +1,5 @@
 body{
     background-color: #D9D9D9;
-    padding-top:100px;
 
 }
 
@@ -14,13 +13,9 @@ body{
     background-position: 30px;
     width:70%;   
     margin:10px auto;
-    padding-bottom:10px;
-    padding-top: 10px;
     text-align: justify;
 }
-.text-container2{
 
-}
 
 .catpaw {
     max-width: 30px; 
