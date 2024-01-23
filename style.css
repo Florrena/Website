@@ -614,6 +614,16 @@ button:hover {
         object-fit: cover;
     }
   
+    .about-banner-container img{
+        height:300px;
+        object-fit: cover;
+    }
+
+    .contact-banner-container img{
+        height:300px;
+        object-fit: cover;
+    }
+
     .text-container{
         display: grid;
         align-items: justify;
