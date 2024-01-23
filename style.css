@@ -156,9 +156,14 @@ article{
     padding-left: 6px;
 }
 
+.randomcat a{
+    text-decoration: none;
+}
+
 .randomcat button:hover {
     background-color: #30333A;
     color: #ECA390;
+
 }
 
 
@@ -618,6 +623,7 @@ button:hover {
 
     .randomcat button {
       max-width: 100%;
+      margin-left:25%;
 
     }
 
