@@ -564,6 +564,12 @@ button:hover {
     }
   
     /* Body */
+
+    .body-container, .catnshop-container, .text-container {
+        background-image: none ;
+        background-color: #D9D9D9;
+    }
+
     .body-container {
       background-size: cover;
       background-position:right;
@@ -585,11 +591,29 @@ button:hover {
         object-fit: cover;
     }
   
+    .text-container{
+        display: grid;
+        align-items: justify;
+        grid-template-columns: 1fr; /* One column */
+        grid-template-rows: auto auto; /* Two rows */
+        gap: 10px; /* Adjust the gap as needed */
+    }
+
     .grid-container{
         display: grid;
         grid-template-columns: 1fr; /* One column */
         grid-template-rows: auto auto; /* Two rows */
         gap: 10px; /* Adjust the gap as needed */
+    }
+
+    .contact-article{
+        padding-left: 10%;
+        text-align: justify;
+    }
+
+    .form-container button{
+        margin-top: 10%;
+        margin-left: 30%;
     }
 
     .randomcat button {
